@@ -27,7 +27,7 @@ const FrontPage = () => {
             <div style={{ marginTop: '40vh' }} className='content'>
                 <h4><span style={{ color: '#2ecc71' }}>HEY !</span> Its Me NURUL HUDA...</h4>
                 <h1>FRONT-END WEB <span style={{ color: '#2ecc71' }}>DEVELOPER</span></h1>
-                {download ? <p>Downloaded <FontAwesomeIcon style={{ color: 'green' }} icon={faCheckCircle} /></p> : <a className='downloadbtn' onClick={handleDownload} href={resume} download>Resume Download <FontAwesomeIcon icon={faDownload} /></a>}
+                {download ? <p>Downloaded Resume <FontAwesomeIcon style={{ color: 'green' }} icon={faCheckCircle} /></p> : <a className='downloadbtn' onClick={handleDownload} href={resume} download>Resume Download <FontAwesomeIcon icon={faDownload} /></a>}
             </div>
 
             <div className="side-icon">
