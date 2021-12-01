@@ -15,8 +15,8 @@ const Projects = () => {
     return (
         <div style={{ width: "100%", height: "auto", backgroundColor: "#34495e" }}>
             <div style={{ padding: '100px' }}>
-                <h2>MY PROJECTS</h2>
-                <h5 style={{ marginBottom: "40px" }}>hare are few projects that i have build recently</h5>
+                <h2 style={{ fontWeight: 'bold', color: 'white' }}>MY PROJECTS</h2>
+                <h5 style={{ marginBottom: "40px", color: 'white', letterSpacing: '1.2px' }}>Hare are few projects that i have build recently</h5>
                 <div>
                     <Box style={{ maxWidth: "80%", margin: "auto" }} sx={{ flexGrow: 1 }}>
                         <Grid container spacing={2}>
@@ -40,13 +40,13 @@ const Projects = () => {
                                     </CardActionArea>
                                     <CardActions>
                                         <a target="_blank" rel="noreferrer" href="https://moto-village.web.app/"><Button size="small" color="primary">
-                                            Live Site
+                                            Live
                                         </Button></a>
                                         <a target="_blank" rel="noreferrer" href="-https://github.com/nurul0010/moto-village-website"><Button size="small" color="primary">
-                                            Frontend Code
+                                            Front Code
                                         </Button></a>
                                         <a target="_blank" rel="noreferrer" href="https://github.com/nurul0010/moto-village-web-server"><Button size="small" color="primary">
-                                            Backend Code
+                                            Server Code
                                         </Button></a>
                                     </CardActions>
                                 </Card>
@@ -72,10 +72,10 @@ const Projects = () => {
                                     </CardActionArea>
                                     <CardActions>
                                         <a target="_blank" rel="noreferrer" href="https://stupefied-engelbart-82c2a7.netlify.app/"><Button size="small" color="primary">
-                                            Live Site
+                                            Live
                                         </Button></a>
                                         <a target="_blank" rel="noreferrer" href="https://github.com/nurul0010/e-orangeshopping-web-assi7"><Button size="small" color="primary">
-                                            Code Link
+                                            Code
                                         </Button></a>
                                     </CardActions>
                                 </Card>
@@ -102,13 +102,13 @@ const Projects = () => {
                                     </CardActionArea>
                                     <CardActions>
                                         <a target="_blank" rel="noreferrer" href="https://doctors-portal-1059b.web.app/home"><Button size="small" color="primary">
-                                            Live Site
+                                            Live
                                         </Button></a>
                                         <a target="_blank" rel="noreferrer" href="https://github.com/nurul0010/doctors-portal-clientside"><Button size="small" color="primary">
-                                            Frontend Code
+                                            Front Code
                                         </Button></a>
                                         <a target="_blank" rel="noreferrer" href="https://github.com/nurul0010/doctors-portal-serverside"><Button size="small" color="primary">
-                                            Backend Code
+                                            Server Code
                                         </Button></a>
                                     </CardActions>
                                 </Card>
