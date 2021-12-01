@@ -36,7 +36,7 @@ const Mailer = () => {
 
                     <input style={{ marginTop: '30px' }} type="submit" value='Send' className='form-control btn btn-primary' />
                 </form>}
-                {error || <p style={{ color: 'red' }}>{error?.message}</p>}
+                {error && <p style={{ color: 'red' }}>{error?.message}</p>}
             </div>
         </div>
     );

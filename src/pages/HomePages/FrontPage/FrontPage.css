@@ -32,7 +32,7 @@ button{
     cursor:pointer;
     border-radius: 20px;
 }
-body a{
+.downloadbtn{
     color:#fbfcfd;
     padding:10px 25px;
     outline:none;
@@ -43,11 +43,11 @@ body a{
 }
 .content{
     color:#fbfcfd;
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 24%;
     transform: translateY(-50%);
-    z-index: 2;
+    z-index: 2; */
 }
 h1{
     font-size:70px;
