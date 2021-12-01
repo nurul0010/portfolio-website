@@ -16,13 +16,13 @@ const Mailer = () => {
     }
 
     return (
-        <div style={{ width: '100%', height: 'auto', backgroundColor: '#34495e', padding: '100px' }}>
+        <div style={{ width: '100%', height: 'auto', backgroundColor: '#34495e', paddingTop: '40px', paddingBottom: '40px' }}>
             <div className='container border' style={{ maxWidth: '50%', backgroundImage: `url('https://www.creativefabrica.com/wp-content/uploads/2021/01/28/Colorful-Watercolor-Background-Graphics-8158369-1.jpg')`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
 
                 <h2 style={{ marginTop: '25px' }}>Contract Form</h2>
 
 
-                {success ? <p>Successfully sent email <FontAwesomeIcon style={{ color: 'green' }} icon={faCheckCircle} /></p> : <form onSubmit={sendEmail} className="row" style={{ margin: '25px 85px 75px 100px' }}>
+                {success ? <p>Successfully sent email <FontAwesomeIcon style={{ color: 'green' }} icon={faCheckCircle} /></p> : <form onSubmit={sendEmail} className="row" style={{ margin: '25px 10px 75px 10px' }}>
                     <label>Name</label>
                     <input required type='text' name='name' className='form-control' />
 
