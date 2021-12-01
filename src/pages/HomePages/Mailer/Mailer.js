@@ -17,9 +17,9 @@ const Mailer = () => {
 
     return (
         <div style={{ width: '100%', height: 'auto', backgroundColor: '#34495e', padding: '100px' }}>
-            <div className='container border' style={{ width: '50%', backgroundImage: `url('https://www.creativefabrica.com/wp-content/uploads/2021/01/28/Colorful-Watercolor-Background-Graphics-8158369-1.jpg')`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
+            <div className='container border' style={{ maxWidth: '50%', backgroundImage: `url('https://www.creativefabrica.com/wp-content/uploads/2021/01/28/Colorful-Watercolor-Background-Graphics-8158369-1.jpg')`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
 
-                <h1 style={{ marginTop: '25px' }}>Contract Form</h1>
+                <h2 style={{ marginTop: '25px' }}>Contract Form</h2>
 
 
                 {success ? <p>Successfully sent email <FontAwesomeIcon style={{ color: 'green' }} icon={faCheckCircle} /></p> : <form onSubmit={sendEmail} className="row" style={{ margin: '25px 85px 75px 100px' }}>
