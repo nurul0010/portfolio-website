@@ -9,10 +9,12 @@ const About = () => {
         <div style={{ background: '#2ecc71', width: '100%', height: 'auto' }}>
             <Box sx={{ flexGrow: 1 }}>
                 <Grid container spacing={2}>
-                    <Grid item md={6} sm={12}>
+                    <Grid data-aos="fade-up"
+                        data-aos-duration="1000" item md={6} sm={12}>
                         <img style={{ width: '400px' }} src={profile} alt="" />
                     </Grid>
-                    <Grid style={{ display: 'flex', alignItems: 'center', padding: '80px' }} item md={6} sm={12}>
+                    <Grid data-aos="fade-up"
+                        data-aos-duration="1000" style={{ display: 'flex', alignItems: 'center', padding: '80px' }} item md={6} sm={12}>
 
                         <div>
                             <Typography variant="h3" gutterBottom component="div">

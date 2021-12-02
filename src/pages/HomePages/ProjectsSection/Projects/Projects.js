@@ -20,7 +20,7 @@ const Projects = () => {
                 <div>
                     <Box style={{ maxWidth: "80%", margin: "auto" }} sx={{ flexGrow: 1 }}>
                         <Grid container spacing={2}>
-                            <Grid item xs={12} md={4}>
+                            <Grid data-aos="fade-right" data-aos-duration="2000" item xs={12} md={4}>
                                 <Card sx={{ maxWidth: 345, p: 2 }}>
                                     <CardActionArea>
                                         <CardMedia
@@ -51,7 +51,7 @@ const Projects = () => {
                                     </CardActions>
                                 </Card>
                             </Grid>
-                            <Grid item xs={12} md={4}>
+                            <Grid data-aos="fade-down" data-aos-duration="2000" item xs={12} md={4}>
 
                                 <Card sx={{ maxWidth: 345, p: 2 }}>
                                     <CardActionArea>
@@ -81,7 +81,7 @@ const Projects = () => {
                                 </Card>
 
                             </Grid>
-                            <Grid item xs={12} md={4}>
+                            <Grid data-aos="fade-left" data-aos-duration="2000" item xs={12} md={4}>
 
                                 <Card sx={{ maxWidth: 345, p: 2 }}>
                                     <CardActionArea>

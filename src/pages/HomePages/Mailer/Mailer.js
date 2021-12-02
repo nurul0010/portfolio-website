@@ -17,7 +17,7 @@ const Mailer = () => {
 
     return (
         <div style={{ width: '100%', height: 'auto', backgroundColor: '#34495e', paddingTop: '40px', paddingBottom: '40px' }}>
-            <div className='container border' style={{ maxWidth: '50%', backgroundImage: `url('https://www.creativefabrica.com/wp-content/uploads/2021/01/28/Colorful-Watercolor-Background-Graphics-8158369-1.jpg')`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
+            <div data-aos="zoom-in" data-aos-duration="2000" className='container border' style={{ maxWidth: '50%', backgroundImage: `url('https://www.creativefabrica.com/wp-content/uploads/2021/01/28/Colorful-Watercolor-Background-Graphics-8158369-1.jpg')`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
 
                 <h2 style={{ marginTop: '25px' }}>Contract Form</h2>
 

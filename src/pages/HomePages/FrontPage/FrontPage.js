@@ -24,13 +24,15 @@ const FrontPage = () => {
                 <button type='button'>Contract <FontAwesomeIcon icon={faUserTie} /></button>
             </div> */}
 
-            <div style={{ marginTop: '40vh' }} className='content'>
+            <div data-aos="fade-up"
+                data-aos-duration="1000" style={{ marginTop: '40vh' }} className='content'>
                 <h4><span style={{ color: '#2ecc71' }}>HEY !</span> Its Me NURUL HUDA...</h4>
                 <h1>FRONT-END WEB <span style={{ color: '#2ecc71' }}>DEVELOPER</span></h1>
                 {download ? <p>Downloaded Resume <FontAwesomeIcon style={{ color: 'green' }} icon={faCheckCircle} /></p> : <a className='downloadbtn' onClick={handleDownload} href={resume} download>Resume Download <FontAwesomeIcon icon={faDownload} /></a>}
             </div>
 
-            <div className="side-icon">
+            <div data-aos="fade-up"
+                data-aos-duration="1000" className="side-icon">
                 <div className='social-icons'>
                     <a target="_blank" rel="noopener noreferrer"
                         href="https://www.facebook.com/showrov0010/"><img src={ficon} alt="" /></a>
